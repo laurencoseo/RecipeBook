@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D3FBE5F927246BAB001FB06D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3FBE5F827246BAB001FB06D /* main.cpp */; };
+		D3FBE601272471D0001FB06D /* RecipeBook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3FBE5FF272471CF001FB06D /* RecipeBook.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		D3FBE5F527246BAB001FB06D /* RecipeBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RecipeBook; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FBE5F827246BAB001FB06D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D3FBE5FF272471CF001FB06D /* RecipeBook.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RecipeBook.cpp; sourceTree = "<group>"; };
+		D3FBE600272471D0001FB06D /* RecipeBook.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RecipeBook.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				D3FBE5F827246BAB001FB06D /* main.cpp */,
+				D3FBE5FF272471CF001FB06D /* RecipeBook.cpp */,
+				D3FBE600272471D0001FB06D /* RecipeBook.hpp */,
 			);
 			path = RecipeBook;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3FBE601272471D0001FB06D /* RecipeBook.cpp in Sources */,
 				D3FBE5F927246BAB001FB06D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
